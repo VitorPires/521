@@ -1,9 +1,7 @@
-#!/usr/bin/python3
-print ('Hello Word')
-while True:
-    nome = input ('Qual a melhor linguagem de programacao?')
-    if nome == 'python':
-        print ('Voce acertou')
-        break;
-    else:
-	print ('Errou')
+
+
+
+
+var={"nome":"vitor","dados":{"idade":20}}
+print(var["dados"]['idade'])
+print(len(var))
